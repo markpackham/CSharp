@@ -1,0 +1,11 @@
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.deps.json
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.runtimeconfig.json
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.runtimeconfig.dev.json
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.dll
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.pdb
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.csprojResolveAssemblyReference.cache
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.AssemblyInfoInputs.cache
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.AssemblyInfo.cs
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.dll
+E:\xampp\htdocs\CSharp\HelloWorld\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.pdb
