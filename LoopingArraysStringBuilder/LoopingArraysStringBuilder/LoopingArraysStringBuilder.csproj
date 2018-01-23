@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7F50DDA-201C-4783-97D2-B7CD8E0C2011}</ProjectGuid>
+    <ProjectGuid>{CA0F5412-9AF3-4111-B68D-96701E6FAA9E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>LoopingArraysStringBuilder</RootNamespace>
     <AssemblyName>LoopingArraysStringBuilder</AssemblyName>
