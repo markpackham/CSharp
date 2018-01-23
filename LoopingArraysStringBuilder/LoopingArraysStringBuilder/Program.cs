@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+//Globilization allows culture specific formatting
 using System.Globalization;
 
 namespace LoopingArraysStringBuilder
@@ -76,7 +78,47 @@ namespace LoopingArraysStringBuilder
 
             int[] numArray = {1,11,22};
 
+            //Array.FindAll would return an array of all the matches
             Console.WriteLine("> 10 : {0}", Array.Find(numArray, greaterThanTen));
+
+            StringBuilder sb = new StringBuilder("Random Text");
+
+            //Default is 16 characters
+            StringBuilder sb2 = new StringBuilder("More stuff that is important", 256);
+
+            Console.WriteLine("Capacity: {0}", sb.Capacity);
+            Console.WriteLine("Length: {0}", sb.Length);
+
+            sb2.AppendLine("\nMore important text");
+
+            CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
+            string bestCust = "Bob Smith";
+            sb2.AppendFormat(enUS, "Best Customer :  {0}", bestCust);
+
+            Console.WriteLine(sb2.ToString());
+
+            sb2.Replace("text", "characters");
+            Console.WriteLine(sb2.ToString());
+
+            sb2.Clear();
+
+            sb2.Append("Random Text");
+
+            Console.WriteLine(sb.Equals(sb2));
+
+            sb2.Insert(11, " that's great ");
+
+            Console.WriteLine(sb2.ToString());
+
+            //Remove next 7 characters after index 11
+            sb2.Remove(11, 7);
+
+            Console.WriteLine(sb2.ToString());
+
+            long num1 = 1234;
+            int num2 = (int)num1;
+
+            Console.WriteLine("Orig : {0} Cast : {1}",num1.GetType(),num2.GetType());
 
             Console.ReadLine();
         }
