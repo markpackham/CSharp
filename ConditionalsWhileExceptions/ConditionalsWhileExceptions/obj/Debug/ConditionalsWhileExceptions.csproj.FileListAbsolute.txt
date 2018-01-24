@@ -1,0 +1,7 @@
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\bin\Debug\ConditionalsWhileExceptions.exe.config
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\bin\Debug\ConditionalsWhileExceptions.exe
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\bin\Debug\ConditionalsWhileExceptions.pdb
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\obj\Debug\ConditionalsWhileExceptions.csprojResolveAssemblyReference.cache
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\obj\Debug\ConditionalsWhileExceptions.csproj.CoreCompileInputs.cache
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\obj\Debug\ConditionalsWhileExceptions.exe
+E:\xampp\htdocs\CSharp\ConditionalsWhileExceptions\ConditionalsWhileExceptions\obj\Debug\ConditionalsWhileExceptions.pdb
