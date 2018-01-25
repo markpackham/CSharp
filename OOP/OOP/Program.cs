@@ -48,7 +48,7 @@ namespace OOP
             };
 
             // Call the static method
-            Console.WriteLine("# of Animals {0}",
+            Console.WriteLine("Number of Animals {0}",
                 Animal.GetNumAnimals());
 
             // You can also create static utility
