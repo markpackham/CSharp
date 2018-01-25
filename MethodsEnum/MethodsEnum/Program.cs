@@ -77,6 +77,9 @@ namespace MethodsEnum
             CarColor car1 = CarColor.Blue;
             PaintCar(car1);
 
+            CarColor car2 = CarColor.Yellow;
+            PaintCar(car2);
+
 
             Console.ReadLine();
 
