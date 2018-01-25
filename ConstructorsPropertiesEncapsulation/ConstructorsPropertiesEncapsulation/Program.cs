@@ -32,7 +32,7 @@ namespace ConstructorsPropertiesEncapsulation
                 cat.GetName(), cat.idNum);
 
             // Test static property
-            Console.WriteLine("# of Animals : {0}",
+            Console.WriteLine("# of Animals (based on how many Animal objects you created) : {0}",
                 Animal.NumOfAnimals);
 
 
