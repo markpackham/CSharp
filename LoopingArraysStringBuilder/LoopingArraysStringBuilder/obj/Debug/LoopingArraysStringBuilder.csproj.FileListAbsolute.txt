@@ -1,7 +1,0 @@
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\bin\Debug\LoopingArraysStringBuilder.exe.config
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\bin\Debug\LoopingArraysStringBuilder.exe
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\bin\Debug\LoopingArraysStringBuilder.pdb
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\obj\Debug\LoopingArraysStringBuilder.csprojResolveAssemblyReference.cache
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\obj\Debug\LoopingArraysStringBuilder.csproj.CoreCompileInputs.cache
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\obj\Debug\LoopingArraysStringBuilder.exe
-E:\xampp\htdocs\CSharp\LoopingArraysStringBuilder\LoopingArraysStringBuilder\obj\Debug\LoopingArraysStringBuilder.pdb

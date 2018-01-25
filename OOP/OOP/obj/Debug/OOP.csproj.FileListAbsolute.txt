@@ -1,7 +1,0 @@
-E:\xampp\htdocs\CSharp\OOP\OOP\bin\Debug\OOP.exe.config
-E:\xampp\htdocs\CSharp\OOP\OOP\bin\Debug\OOP.exe
-E:\xampp\htdocs\CSharp\OOP\OOP\bin\Debug\OOP.pdb
-E:\xampp\htdocs\CSharp\OOP\OOP\obj\Debug\OOP.csprojResolveAssemblyReference.cache
-E:\xampp\htdocs\CSharp\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
-E:\xampp\htdocs\CSharp\OOP\OOP\obj\Debug\OOP.exe
-E:\xampp\htdocs\CSharp\OOP\OOP\obj\Debug\OOP.pdb

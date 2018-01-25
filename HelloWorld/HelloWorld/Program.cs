@@ -16,6 +16,8 @@ namespace HelloWorld
             {
                 Console.WriteLine("This could not be converted");
             }
+
+            Console.ReadLine();
                      
         }
     }

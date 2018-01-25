@@ -1,7 +1,0 @@
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\obj\Debug\MethodsEnum.csprojResolveAssemblyReference.cache
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\obj\Debug\MethodsEnum.csproj.CoreCompileInputs.cache
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\bin\Debug\MethodsEnum.exe.config
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\bin\Debug\MethodsEnum.exe
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\bin\Debug\MethodsEnum.pdb
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\obj\Debug\MethodsEnum.exe
-E:\xampp\htdocs\CSharp\MethodsEnum\MethodsEnum\obj\Debug\MethodsEnum.pdb
