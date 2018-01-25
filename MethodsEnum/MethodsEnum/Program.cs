@@ -90,6 +90,8 @@ namespace MethodsEnum
 
         // If you assign a value then it is optional to 
         // pass
+
+        /*
         static double GetSum(double x = 1, double y = 1)
         {
             double temp = x;
@@ -97,6 +99,7 @@ namespace MethodsEnum
             y = temp;
             return x + y;
         }
+        */
 
         // ----- OUT PARAMETER -----
         // A parameter marked with out must be assigned 
@@ -148,6 +151,7 @@ namespace MethodsEnum
             double dblY = Convert.ToDouble(y);
             return dblX + dblY;
         }
+        
 
         // ----- ENUM -----
         // ----- ENUM -----
