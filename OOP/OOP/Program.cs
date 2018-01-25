@@ -85,6 +85,8 @@ namespace OOP
         // ----- STRUCTS -----
         // A struct is a user defined type that
         // contain multiple fields and methods
+        //Structs are value types and Classes are reference types.
+        //value types always contains a value whilst reference types can contain a null-reference, meaning that they don't refer to anything at all at the moment
 
         struct Rectangle
         {
