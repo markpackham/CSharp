@@ -31,6 +31,14 @@ namespace ConstructorsPropertiesEncapsulation
         // be changed
         public readonly int idNum;
 
+        /*
+         * The readonly keyword is different from the const keyword. 
+         * A const field can only be initialized at the declaration of the field. 
+         * A readonly field can be initialized either at the declaration or in a constructor. 
+         * Therefore, readonly fields can have different values depending on the constructor used. 
+         * Also, while a const field is a compile-time constant, the readonly field can be used for runtime constants
+         **/
+
         // Method (Capabilities)
         public void MakeSound()
         {
