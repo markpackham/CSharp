@@ -9,6 +9,7 @@ namespace InheritancePolymorphism
     // When you inherit from another class you
     // receive all of its fields and methods
     // You cannot inherit from multiple classes
+    // the : is the C# to "extends" in Php, JavaScript, Java
     class Dog : Animal
     {
         // You can add additional properties
