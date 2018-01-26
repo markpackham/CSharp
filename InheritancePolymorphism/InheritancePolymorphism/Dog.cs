@@ -39,6 +39,8 @@ namespace InheritancePolymorphism
         public Dog(string name = "No Name",
             string sound = "No Sound",
             string sound2 = "No Sound 2")
+
+            //base calls the superclass like "super" in PHP
             : base(name, sound)
         {
             Sound2 = sound2;
