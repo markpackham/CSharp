@@ -41,6 +41,11 @@ namespace InheritancePolymorphism
 
             Console.WriteLine("Is my animal healthy : {0}", getHealth.HealthyWeight(11, 46));
 
+            //Otherways to output the data thanks to $ and {}
+            Console.WriteLine($"Is my animal healthy : {getHealth.HealthyWeight(11, 46)}");
+            bool healthy = getHealth.HealthyWeight(11, 46);
+            Console.WriteLine($"Is my animal healthy : { healthy}");
+
             // You can define 2 Animal objects but have
             // one actually be a Dog type. 
             Animal monkey = new Animal()
