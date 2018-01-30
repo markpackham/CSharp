@@ -87,6 +87,22 @@ namespace OOP
         // contain multiple fields and methods
         //Structs are value types and Classes are reference types.
         //value types always contains a value whilst reference types can contain a null-reference, meaning that they don't refer to anything at all at the moment
+		/*
+		As a rule of thumb, the majority of types in a framework should be classes. There are, however, some situations in which the characteristics of a value type make it more appropriate to use structs.
+
+		✓ CONSIDER defining a struct instead of a class if instances of the type are small and commonly short-lived or are commonly embedded in other objects.
+
+		X AVOID defining a struct unless the type has all of the following characteristics:
+
+    It logically represents a single value, similar to primitive types (int, double, etc.).
+
+    It has an instance size under 16 bytes.
+
+    It is immutable.
+
+    It will not have to be boxed frequently.
+
+		**/
 
         struct Rectangle
         {
