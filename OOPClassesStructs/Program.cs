@@ -98,7 +98,7 @@ namespace OOP
 
     It has an instance size under 16 bytes.
 
-    It is immutable.
+    It is immutable (unchanging over time or unable to be changed).
 
     It will not have to be boxed frequently.
 
