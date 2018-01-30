@@ -176,6 +176,7 @@ namespace Collections
             // ---------- STACKS ----------
             #region Queue Code
             // Stack Last in 1st Out Collection
+			// Stacks are based on a stack of dishes that you wash in a restaurant
 
             // Create a stack
             Stack stack = new Stack();
