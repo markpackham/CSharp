@@ -28,6 +28,7 @@ namespace InkCanvasKeyListeners
             {
                 // Display the date
                 DateTime date = calendar.SelectedDate.Value;
+
                 try
                 {
                     tbDateSelected.Text = date.ToShortDateString();
@@ -35,8 +36,9 @@ namespace InkCanvasKeyListeners
                 catch (NullReferenceException)
                 {
                     // Needed for a bug that is triggered during
-                    // initialization
+                    // initialization or you end up with this System.NullReferenceException: 'Object reference not set to an instance of an object.'
                 }
+
             }
 
         }
