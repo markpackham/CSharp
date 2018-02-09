@@ -1,0 +1,7 @@
+E:\xampp\htdocs\CSharp\Databases\Databases\bin\Debug\Databases.exe.config
+E:\xampp\htdocs\CSharp\Databases\Databases\bin\Debug\Databases.exe
+E:\xampp\htdocs\CSharp\Databases\Databases\bin\Debug\Databases.pdb
+E:\xampp\htdocs\CSharp\Databases\Databases\obj\Debug\Databases.csprojResolveAssemblyReference.cache
+E:\xampp\htdocs\CSharp\Databases\Databases\obj\Debug\Databases.csproj.CoreCompileInputs.cache
+E:\xampp\htdocs\CSharp\Databases\Databases\obj\Debug\Databases.exe
+E:\xampp\htdocs\CSharp\Databases\Databases\obj\Debug\Databases.pdb
