@@ -320,3 +320,102 @@ namespace MethodOverloading
 }
 
 // A method signature is a method’s name and parameter types in order.
+
+// Return statement example
+using System;
+
+namespace Return
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine(DecoratePlanet("Jupiter"));    
+    }
+    
+    static string DecoratePlanet(string planet)
+    {
+       return $"*..*..* Welcome to {planet} *..*..*";
+    }
+	}
+}
+
+
+/*
+The method definition must contain the type of the return value: if a method returns an integer, 
+its return type must be int; if it returns text, it must be string, and so on. If the method returns nothing, use void.
+
+If a method returns a type different from its stated return type, it will throw an error. 
+*/
+
+// This error means you must state a return type before the method name
+// error CS1520: Method must have a return type
+
+// This error means that your method doesn’t return a value, when it should:
+// error CS0161: [MethodName]: not all code paths return a value
+
+// In some cases, this error means that your method returns a string when it should be an int 
+// (this one can be caused by a lot of things outside of methods):
+// error CS0029: Cannot implicitly convert type 'string' to 'int'
+
+
+
+// Out
+// A method can only return one value, but sometimes you need to output two pieces of information & "out" can be used
+using System;
+
+namespace OutParameters
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string ageAsString = "102";
+      string nameAsString = "Granny";
+      int ageAsInt;
+      bool outcome;
+      outcome = Int32.TryParse(ageAsString, out ageAsInt);
+      Console.WriteLine(outcome); // True
+      Console.WriteLine(ageAsInt); // 102
+      
+      int nameAsInt;
+      bool outcome2;
+      outcome2 = Int32.TryParse(nameAsString, out nameAsInt);
+      Console.WriteLine(outcome2); // False
+      Console.WriteLine(nameAsInt); // 0
+    }    
+	}
+}
+
+
+// Another "out" example
+using System;
+
+namespace UsingOut
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string statement = "GARRRR";
+			string murmur = Whisper(statement, out bool marker);
+      Console.WriteLine(murmur); // garrrr
+    }  
+    
+    static string Whisper(string phrase, out bool wasWhisperCalled)
+    {
+      wasWhisperCalled = true;
+      return phrase.ToLower();
+    }
+	}
+}
+
+
+// This error means that the out parameter needs to be assigned a value within the method:
+// error CS0177: The out parameter 'success' must be assigned to before control leaves the current method
+
+// This error means you called a method that expects an ‘out’ parameter but you didn’t use the out keyword when calling it:
+// error CS1620: Argument 2 must be passed with the 'out' keyword
+
+// Every method has a return type, designated in its method signature. That type must match the type of the value actually returned.
+// If a method returns no type, its return type is void
