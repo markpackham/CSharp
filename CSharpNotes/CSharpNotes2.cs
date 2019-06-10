@@ -255,3 +255,68 @@ namespace OptionalParameters
     }
   }
 }
+
+
+// Naming the argument you want to specifically set
+using System;
+
+namespace NamedArguments
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      //When calling a method, pass arguments by position/order they come in or by name. If using names, use the colon (:) syntax
+      VisitPlanets();
+      VisitPlanets(numberOfPlanets: 2);
+      // Only set number of planets & name so gForce & adjective stay as they are
+      VisitPlanets(numberOfPlanets: 2, name: "Farfel");
+
+    }
+    
+    static void VisitPlanets(
+      string adjective = "brave",
+      string name = "Cosmonaut", 
+      int numberOfPlanets = 0,
+      double gForce = 4.2)
+    {
+      Console.WriteLine($"Welcome back, {adjective} {name}.");
+      Console.WriteLine($"You visited {numberOfPlanets} new planets...");
+      Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
+    }
+  }
+}
+
+
+// Method Overloading (same method reacts differently depending on arguments like Java's Polymorphism)
+using System;
+
+namespace MethodOverloading
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      NamePets("Laika", "Albert");
+      NamePets("Mango", "Puddy", "Bucket");
+      NamePets();
+    }
+    
+    static void NamePets(string pet1, string pet2)
+    {
+      Console.WriteLine($"Your pets {pet1} and {pet2} will be joining your voyage across space!");
+    }  
+    
+    static void NamePets(string pet1, string pet2, string pet3)
+    {
+      Console.WriteLine($"Your pets {pet1}, {pet2}, and {pet3} will be joining your voyage across space!");
+    }  
+    
+    static void NamePets()
+    {
+      Console.WriteLine("Aw, you have no spacefaring pets :(");
+    }
+  }
+}
+
+// A method signature is a method’s name and parameter types in order.
