@@ -1,0 +1,2 @@
+E:\xampp\htdocs\NewThinkCSharp\NewThinkCSharp\NewThinkCSharp\obj\Debug\NewThinkCSharp.csprojResolveAssemblyReference.cache
+E:\xampp\htdocs\NewThinkCSharp\NewThinkCSharp\NewThinkCSharp\obj\Debug\NewThinkCSharp.csproj.CoreCompileInputs.cache
